@@ -12969,6 +12969,7 @@ components:
       description: The original widget we are splitting on.
       oneOf:
       - $ref: '#/components/schemas/ChangeWidgetDefinition'
+      - $ref: '#/components/schemas/DistributionWidgetDefinition'
       - $ref: '#/components/schemas/GeomapWidgetDefinition'
       - $ref: '#/components/schemas/QueryValueWidgetDefinition'
       - $ref: '#/components/schemas/ScatterPlotWidgetDefinition'
