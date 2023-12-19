@@ -172,7 +172,7 @@ When these environment variables are not set, the Admission Controller uses stan
 #### Configure APM and DogstatsD communication mode
 Starting from Datadog Cluster Agent v1.20.0, the Datadog Admission Controller can be configured to inject different modes of communication between the application and Datadog agent.
 
-This feature can be configured by setting `admission_controller.inject_config.mode` or by defining a Pod-specific mode using the `admission.datadoghq.com/config.mode` Pod label.
+This feature can be configured by setting `clusterAgent.admissionController.configMode` or by defining a Pod-specific mode using the `admission.datadoghq.com/config.mode` Pod label.
 
 Possible options:
 | Mode               | Description                                                                                                       |
